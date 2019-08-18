@@ -1,0 +1,22 @@
+#IAEC-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 20px;
+}
+
+#content{
+    padding-bottom: 80px;
+}
+
+#content #content-image{
+    padding-top: 20px;
+}
+
+#content h3{
+    padding-top: 50px;
+}
+
+#content h4{
+    padding-top: 20px;
+}

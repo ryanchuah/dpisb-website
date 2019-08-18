@@ -1,0 +1,29 @@
+#insulation-cones-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-top: 30px;
+
+}
+
+#insulation-cones-grid-item{
+    grid-column: 1/2;
+}
+
+#seperate-contacts-grid-item{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#img-grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+
+
+
+

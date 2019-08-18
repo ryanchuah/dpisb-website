@@ -1,0 +1,44 @@
+#aboutusgrid{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-column-gap: 50px;
+    grid-template-rows: 1fr;
+}
+
+#pictures{
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+    align-items: center;
+    grid-gap: 10px;
+    
+}
+
+#pictures img{
+    width: 100%;
+    box-shadow: 2px 2px 5px 1px gray;
+}
+
+#captions{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: max-content 1fr;
+}
+
+#ann{
+    text-align: center;
+    font-size: xx-large;
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    border-radius: 100px;
+    font-weight: bold;
+    transform: rotate(-10deg);
+    align-self: center;
+    justify-self: center;
+    height: max-content;
+    width: 350px;
+    padding: 0 30px;
+    
+}
+
+

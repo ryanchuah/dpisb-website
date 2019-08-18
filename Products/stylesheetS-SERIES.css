@@ -1,0 +1,46 @@
+#content #HS-grid-container, #content #HP-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+}
+
+#content #frame-jump{
+    color: #009dff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#content #frame-jump:hover{
+    text-decoration: underline;
+}
+
+#content #em-grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content #sizes-grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 1fr;
+}
+
+#content .sizes-grid-item{
+    padding: 5px;
+    border: solid 0.5px black;
+    text-align: center;
+}
+
+#content #dimensions-picture{
+    border: 1px solid transparent;
+}
+
+#content #FSG:before{
+    display: block; 
+    content: " "; 
+    margin-top: -50px; 
+    height: 50px; 
+    visibility: hidden; 
+    pointer-events: none;
+}

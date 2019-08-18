@@ -1,0 +1,26 @@
+
+#BSS1-310-406GY{
+    padding: 30px 125px; 
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#BSS1-310-406GY h2, #BSS1-310-406GY h3{
+    margin-top: 20px;
+}
+
+
+
+#BSS1-310-406GY-specifications{   
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(7,1fr);
+}
+
+#BSS1-310-406GY-ratings{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+
+#BSS1-310-406GY-materials{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(18,1fr);
+}

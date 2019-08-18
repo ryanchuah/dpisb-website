@@ -1,0 +1,85 @@
+/* ----------Banner---------- */
+
+#introduction{
+    background-image: url("bannereffects.png");
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 45px;
+
+}
+
+#introduction .banner{
+
+    font-family: "Times New Roman";
+    text-align: center;
+    color: white;
+    font-size: large;
+    background-color: rgba(76, 52, 255, 0.6);
+    height: 250px;
+    width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+#introduction .banner img{
+    display: block;
+    max-width:50%;
+    max-height: 25%;
+    width: auto;
+    height: auto;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+#introduction .banner h1{
+    white-space: nowrap;
+    font-size: 2.8vw;
+    width: max-content;
+    align-self: center;
+}
+
+
+/* ----------Home Text---------- */
+
+#home-text{
+    text-align: center;
+    padding: 30px 200px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#home-text p{
+    font-size: large;
+}
+
+#home-text .bold{
+    font-weight: bold;
+}
+
+#home-text .home-text-captions{
+    margin-bottom: 30px;
+}
+
+#product-quality li{
+    margin: 0 15%;
+    list-style: none;
+}
+
+.larger{
+    font-size: larger;
+}
+

@@ -1,0 +1,49 @@
+#content #contact-grid{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+
+#content .contact-flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 350px;
+}
+
+#content .contact-flex-item{
+    display: flex;
+    align-items: center;
+}
+
+#content .contact-icon{
+    width: 64px;
+    height: 64px;
+}
+
+#content ul{
+    padding-right: 70px;
+    padding-left: 30px;
+}
+
+#content h1{
+    padding-bottom: 2%;
+}
+
+#content #email-icon img{
+    padding-right: 10px;
+}
+
+#content #email-icon p{
+    padding-right: 40px;
+}
+
+#content iframe{
+    width: 100%; 
+    height: 350px;
+}

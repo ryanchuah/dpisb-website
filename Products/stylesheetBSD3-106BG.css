@@ -1,0 +1,21 @@
+#BSD3-106BG{
+    padding: 30px 125px; 
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#BSD3-106BG h2, #BSD3-106BG h3{
+    margin-top: 20px;
+}
+
+
+
+#BSD3-106BG-specifications{   
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(7,1fr);
+}
+
+#BSD3-106BG-materials{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(18,1fr);
+}
+

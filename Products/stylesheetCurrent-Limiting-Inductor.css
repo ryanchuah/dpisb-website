@@ -1,0 +1,58 @@
+#content #specifications-grid-container .grid-item, #content #single-grid-container .grid-item, #content #three-grid-container .grid-item{
+    font-weight: normal;
+    background-color: white;
+}
+
+#content #specifications-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+}
+
+#content #specifications-grid-container .grid-item:nth-child(4n-2), #content #specifications-grid-container .grid-item:nth-child(4n-3){
+    background-color: lightgray;
+}
+
+#content #specifications-grid-container .grid-item:nth-child(odd){
+    font-weight: bold;
+}
+
+#content #single-grid-container, #content #three-grid-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-auto-columns: 1fr;
+}
+
+#content #single-grid-container .grid-item:nth-child(-n+6), #content #three-grid-container .grid-item:nth-child(-n+6){
+    font-weight: bold;
+}
+
+#content #single-grid-container .grid-item:nth-child(12n-6),#content #single-grid-container .grid-item:nth-child(12n-7),#content #single-grid-container .grid-item:nth-child(12n-8),#content #single-grid-container .grid-item:nth-child(12n-9),#content #single-grid-container .grid-item:nth-child(12n-10),#content #single-grid-container .grid-item:nth-child(12n-11){
+    background-color: lightgray;
+}
+
+#content #three-grid-container .grid-item:nth-child(12n-6),#content #three-grid-container .grid-item:nth-child(12n-7),#content #three-grid-container .grid-item:nth-child(12n-8),#content #three-grid-container .grid-item:nth-child(12n-9),#content #three-grid-container .grid-item:nth-child(12n-10),#content #three-grid-container .grid-item:nth-child(12n-11){
+    background-color: lightgray;
+}
+
+#content #em-grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content #sizes-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+}
+
+#content .sizes-grid-item{
+    padding: 20px;
+    border: solid 0.5px black;
+    text-align: center;
+}
+
+#content #dimensions-picture{
+    border: 1px solid transparent;
+}

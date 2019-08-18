@@ -1,0 +1,26 @@
+
+#BSD4-210-306BG{
+    padding: 30px 125px; 
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#BSD4-210-306BG h2, #BSD4-210-306BG h3{
+    margin-top: 20px;
+}
+
+
+
+#BSD4-210-306BG-specifications{   
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(7,1fr);
+}
+
+#BSD4-210-306BG-ratings{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+
+#BSD4-210-306BG-materials{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(18,1fr);
+}

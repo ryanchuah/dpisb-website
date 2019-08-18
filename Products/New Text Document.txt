@@ -1,0 +1,36 @@
+/Name
+BSS4/210/210/GY
+/Description
+Type tested to IEC 60439-1 in Australia
+Made of halogen free fiberglass composite materials
+Self-extinguishing and heat resistant (ISO 75/A>200oC)
+High thermal, mechanical & electrical strength
+/Specifications
+Material	:	SMC
+Phases	:	4
+Busbar Side 1 (mm)	:	10mm x 2
+Busbar Side 2 (mm)	:	10mm x 2
+Rated Voltage (V)	:	660
+Max Bolt Size	:	M10
+Recommended Torque (Nm)	:	28
+/Material Specifications
+Material	:	Fiberglass reinforced, unsaturated polyester
+Discharge	:	Halogen free
+Environment Protection	:	Re-cycleable
+Color	:	Beige
+Working Temperature	:	160 deg C
+Temperature of Deflection	:	>200 deg C
+Deflection Under Load @ 100oC	:	1.2mm
+Flammability	:	UL94 Class VO & 5VA
+Moisture Absorption	:	Tropicalised (<12mg-BS2782)
+Charpy Impact Strength @ 90oC	:	65kJ/sq.m
+Flexural Strength	:	195MPa
+Flexural Modulus	:	12GPa
+Tensile Strength	:	80MPa
+Electrical Strength @ 90oC	:	11.0 MV / m (IEC243)
+ARC Resistance (ASTM D495-73)	:	195s
+Insulation Resistance	:	12.3 log Ohms (IEC167)
+Tracking Resistance (DIN 53480)	:	Grade KA3C (Method A)
+>B600 (Method B) 
+>600V (BS5901/IEC112)
+Loss Tangent @ 1 MHz	:	tan 0.013

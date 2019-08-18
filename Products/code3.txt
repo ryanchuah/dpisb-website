@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DPI Industries Sdn Bhd</title>
+    <link href="stylesheetmain.css" type="text/css" rel="stylesheet"/>
+    <link href="stylesheetproductdetails.css" type="text/css" rel="stylesheet"/>
+
+    /stylesheet
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="Dpilogobare_burned - Copy.ico" rel="shortcut icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|PT+Sans+Narrow" rel="stylesheet">
+     
+     
+</head>
+    
+<body>
+    <div id="container">
+        <div id="main">
+                        <header>
+                <div id="logo">
+                    <a href="#"><img src="Dpilogobare_burned.png" /></a>
+                </div>
+
+                <nav class="navbar">
+                    <ul>
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="about-us.html"><li>About Us</li></a>
+                        <div class="dropdown">  
+                            <div class="dropbtn"><a href="Products/products.html"><li>Products &nbsp;<i class="fa fa-caret-down"></i></li></a> 
+                            </div>
+                            <div class="dropdown-content">
+                                <div class="grid-container">
+                                    <a href="#" class="grid-item bold">Busbar Support & Insulator</a>
+                                    <a href="#" class="grid-item bold">Current Transformers</a>
+                                    <a href="#"  class="grid-item bold">Fuse Switch</a>
+                                    <a href="#"  class="grid-item bold">Others</a>
+                                    <ul class="categories">
+                                        <li>Busbar Support</li>
+                                        <li>L Shape</li>
+                                        <li>Standoff Insulator</li>
+                                    </ul>
+                                    <ul class="categories">
+                                        <li>EM Series</li>
+                                        <li>CTME Series</li>
+                                        <li>Resin Encapsulated</li>
+                                        <li>Tape Wound</li>   
+                                    </ul>
+                                    <ul class="categories">
+                                        <li>NFC</li>
+                                        <li>NFS</li>
+                                      
+                                    </ul>
+                                    <ul class="categories">
+                                        <li>Busplug</li>
+                                        <li>Power Factor Correction</li>
+                                      
+                                    </ul>
+                                </div>
+                                  
+                            </div>
+                        </div> 
+                       
+                        <a href="downloads.html"><li>Downloads</li></a>
+                        <a href="contact.html"><li>Contact</li></a>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="content">
+
+                <h1>Products</h1>
+
+                /mainheader
+
+                /containerdiv
+                    /image1
+		    /image2
+
+                    <ul id="general-description">
+                        /li
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <h3>Specifications</h3>
+                /specificationsdiv      
+                    /specificationsp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                
+
+                
+                <h3>Material Specification</h3>
+                /materialdiv
+                
+                    /materialp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer id="footer">
+        <div class="footer-captions" id="useful-links">
+            <h4>Terms of Use</h4>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Downloads</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-captions" id="address">
+            <h4>Address</h4>
+            <p>DPI Industries Sdn. Bhd.,<br>34-5 Jalan Tasik Selatan 3,<br>57000 Kuala Lumpur</p>
+        </div>
+
+        <div class="footer-captions" id="working-hours">
+            <h4>Working Hours</h4>
+            <p>Weekdays: 8am to 6pm</p>
+        </div>
+
+        <div class="footer-captions" id="contact-us">
+            <h4>Contact Us</h4>
+            <ul>
+                <li>Tel: +603-9058 3388</li>
+                <li>Fax: +603-9057 2388</li>
+                <li>Email: sales@dpisb.com</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+    
+</html>
+
+
+
+
+

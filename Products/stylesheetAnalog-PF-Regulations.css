@@ -1,0 +1,70 @@
+#content .analog-grid-container{
+    display: grid;
+    grid-auto-rows: 1fr;
+}
+
+#content .analog-grid-container .grid-item{
+    background-color: white;
+    font-weight: normal;
+
+}
+#content #voltage-grid-container, #content #control-grid-container, #relay-grid-container{
+    grid-template-columns: 4fr repeat(4,1fr);
+    
+}
+
+#content .analog-grid-container .grid-item{
+    border: 2px solid transparent;
+    border-right: 1px solid white;
+}
+
+#content .grid-item.bold{
+    font-weight: bold;
+}
+
+#content .grid-item.spanx{
+    grid-column: 2/6;
+}
+
+#content #voltage-grid-container .grid-item:nth-child(-n+5),#content #voltage-grid-container .grid-item:nth-child(n+8):nth-child(-n+9),#content #voltage-grid-container .grid-item:nth-child(n+12):nth-child(-n+16),#content #voltage-grid-container .grid-item:nth-child(n+22):nth-child(-n+23){
+    background-color: lightgray;
+}
+
+#content #current-grid-container, #content #temperature-grid-container, #content #connection-grid-container, #content #degree-grid-container{
+    grid-template-columns: 1fr 1fr;
+}
+
+#content #current-grid-container .grid-item:nth-child(odd){
+    font-weight: bold;
+}
+
+#content #current-grid-container .grid-item:nth-child(4n-2),#content #current-grid-container .grid-item:nth-child(4n-3){
+    background-color: lightgray;
+}
+
+#content #control-grid-container .grid-item:nth-child(-n+5),#content #control-grid-container .grid-item:nth-child(n+8):nth-child(-n+9){
+    background-color: lightgray;
+}
+
+#content #relay-grid-container .grid-item:nth-child(-n+5),#content #relay-grid-container .grid-item:nth-child(n+8):nth-child(-n+9),#content #relay-grid-container .grid-item:nth-child(n+12):nth-child(-n+13){
+    background-color: lightgray;
+}
+
+#content #temperature-grid-container .grid-item:nth-child(4n-2),#content #temperature-grid-container .grid-item:nth-child(4n-3){
+    background-color: lightgray;
+}
+
+#content #connection-grid-container .grid-item:nth-child(4n-2),#content #connection-grid-container .grid-item:nth-child(4n-3){
+    background-color: lightgray;
+}
+
+#content #degree-grid-container .grid-item:nth-child(4n-2),#content #degree-grid-container .grid-item:nth-child(4n-3){
+    background-color: lightgray;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,181 @@
+#content{
+    margin-left: 190px;
+    padding-left: 40px;
+    border-left: 2px solid black;  
+}
+
+#content .flex-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#content #general-description{
+    margin-left: 40px;
+}
+
+#content .grid-container{
+    display: -ms-grid;
+    display: grid;
+    
+}
+
+#content .grid-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+#content .grid-item:nth-child(4n-2), #content .grid-item:nth-child(4n-3){
+    background-color: lightgray;
+}
+
+#content .grid-item:nth-child(odd){
+    font-weight: 600;
+    border-right: 0.5px solid white;
+}
+
+#content h2, #content h3{
+    margin-top: 20px;
+}
+
+#content .grid-container{
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 1fr;
+}
+
+/*--------L-Series---------*/
+
+#content #content-dimensions{
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2,1fr);
+    -ms-grid-rows: 40px (170px)[4];
+        grid-template-rows: 40px repeat(4, 170px);
+    margin-top: 20px;
+}
+
+#content #content-dimensions .grid-item{
+    font-weight: normal;
+    border: 0.5px solid black;
+    background-color: white;
+    
+}
+
+#content #content-dimensions .grid-item:nth-child(1), #content #content-dimensions .grid-item:nth-child(2){
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+
+#content #content-dimensions .grid-item:nth-child(odd){
+    border-left: 1px solid black;
+}
+
+#content #content-dimensions .grid-item:nth-child(even){
+    border-right: 1px solid black;
+}
+
+#content #content-dimensions .grid-item:nth-child(9), #content #content-dimensions .grid-item:nth-child(10){
+    border-bottom: 1px solid black;
+}
+
+/*----------Performance Data----------*/
+
+#content #performance-grid-container{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+}
+
+
+#content #dimensions-in-mm-quote{
+    font-size: smaller;
+}
+
+#content #em-grid .grid-item.section{
+    border-right: 1.5px solid black;
+}
+
+#content #em-grid .grid-item.rightmost{
+    border-right: 1px solid black;
+}
+
+#content #em-grid .grid-item.bottommost{
+    border-bottom: 1px solid black;
+}
+
+#content #guide-quote{
+    font-size: large;
+    font-weight: normal;
+    
+}
+
+#content #guide-quote a{
+    color: #009dff;
+    text-decoration: none;
+}
+
+#content #guide-quote a:hover{
+    text-decoration: underline;
+}
+
+#content h2{
+    padding-bottom: 3%;
+}
+
+/*----------Sidenav----------*/
+
+.sidenav{
+    position: fixed;
+    top: 45px;
+    left: 10px;
+    /*    bottom: 100px;*/
+    width: 170px;
+
+    overflow-x: hidden;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-left:  5px;
+    padding-top: 10px;
+    font-size: 0.9em;
+}
+
+.sidenav a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidenav a:hover{
+    text-decoration: underline;
+    color: #009dff;
+}
+
+.no-bullets{
+    list-style-type: none;
+}
+
+
+.sidenav .bold{
+    margin-top: 0.8em;
+}
+
+/*----------Footer----------*/
+
+#footer{
+    margin-left: 190px;
+    border-left: 2px solid black;
+}

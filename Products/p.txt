@@ -1,0 +1,32 @@
+1
+Specifications
+
+Material	:	DMC
+Phases	:	3
+Busbar Side 1 (mm)	:	-
+Busbar Side 2 (mm)	:	6mm x 1
+Rated Voltage (V)	:	660
+Max Bolt Size	:	M6
+Recommended Torque (Nm)	:	8
+Material Specification
+
+Material	:	Fiberglass reinforced, unsaturated polyester
+Discharge	:	Halogen free
+Environment Protection	:	Re-cycleable
+Color	:	Beige
+Working Temperature	:	160 deg C
+Temperature of Deflection	:	>200 deg C
+Deflection Under Load @ 100oC	:	1.2mm
+Flammability	:	UL94 Class VO & 5VA
+Moisture Absorption	:	Tropicalised (<12mg-BS2782)
+Charpy Impact Strength @ 90oC	:	26kJ/sq.m
+Flexural Strength	:	90MPa
+Flexural Modulus	:	11.5GPa
+Tensile Strength	:	30MPa
+Electrical Strength @ 90oC	:	11.0 MV / m (IEC243)
+ARC Resistance (ASTM D495-73)	:	195s
+Insulation Resistance	:	12.3 log Ohms (IEC167)
+Tracking Resistance (DIN 53480)	:	Grade KA3C (Method A)
+>B600 (Method B) 
+>600V (BS5901/IEC112)
+Loss Tangent @ 1 MHz	:	tan 0.013
